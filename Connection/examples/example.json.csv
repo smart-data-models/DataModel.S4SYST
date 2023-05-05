@@ -1,0 +1,2 @@
+"id_", "type_", "connectsSystem_", "connectsSystemAt_", "dateCreated_", "dateModified_", "source_", "name_", "alternateName_", "description_", "dataProvider_"
+"urn:ngsi-ld:Connection:ca7b43e4-8b6a-4b32-beb2-99458b85ac0c", "Connection", "urn:ngsi-ld:System:f42e4355-6a09-4a52-b50a-7fcfab06aa9d", "urn:ngsi-ld:ConnectionPoint:76183e1a-271f-42ff-a267-bd7105a14c27", "2023-01-26T07:44:04Z", "2023-01-25T16:59:12Z", "Import", "Connection", "Connection type 2", "Connection of limited Connection types", "IFC file"
