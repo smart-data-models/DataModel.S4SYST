@@ -1,0 +1,2 @@
+"id_", "type_", "purpose_", "dateCreated_", "dateModified_", "source_", "name_", "alternateName_", "description_", "dataProvider_"
+"urn:ngsi-ld:System:a830f0f5-7fd3-4dd2-8904-e5835f9d3e00", "System", "heating", "2023-01-26T07:39:18Z", "2023-01-26T06:43:57Z", "Import", "System", "System type 2", "System of limited System types", "IFC file"
