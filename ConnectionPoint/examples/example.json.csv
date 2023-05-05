@@ -1,0 +1,2 @@
+"id_", "type_", "connectionPointOf_", "dateCreated_", "dateModified_", "source_", "name_", "alternateName_", "description_", "dataProvider_"
+"urn:ngsi-ld:ConnectionPoint:deda21d2-807a-4444-b501-e6ae29ad6b1f", "ConnectionPoint", "urn:ngsi-ld:ConnectionPoint:eb7ea7c4-d51a-483f-bd15-d62af8f8f2b7", "2023-01-26T04:18:44Z", "2023-01-26T03:33:54Z", "Import", "ConnectionPoint", "ConnectionPoint type 2", "ConnectionPoint of limited ConnectionPoint types", "IFC file"
