@@ -1,0 +1,2 @@
+"id_", "type_", "purpose_", "dateCreated_", "dateModified_", "source_", "name_", "alternateName_", "description_", "dataProvider_", "@context__0_", "@context__1_"
+"urn:ngsi-ld:System:e993914d-080d-4fba-9b99-58c9a594bb60", "System", "cooling", "2023-01-26T11:42:16Z", "2023-01-25T17:00:09Z", "Import", "System", "System type 2", "System of limited System types", "IFC file", "https://raw.githubusercontent.com/smart-data-models/dataModel.S4SYST/master/context.jsonld", "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
