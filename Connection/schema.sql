@@ -1,0 +1,3 @@
+/* (Beta) Export of data model Connection of the subject dataModel.S4SYST for a postgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE Connection_type AS ENUM ('Connection');
+CREATE TABLE Connection (address json, alternateName text, areaServed text, connectsSystem json, connectsSystemAt json, dataProvider text, dateCreated timestamp, dateModified timestamp, description text, id text, location json, name text, owner json, seeAlso json, source text, type Connection_type);
