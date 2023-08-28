@@ -1,10 +1,9 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://smart-data-models.github.com/dataModel.SAREF/commons",
+  "$id": "https://smart-data-models.github.io/dataModel.S4SYST/S4SYST-schema.json",
   "title": "Common definitions for SAREF",
   "definitions": {
     "Measurement": {
-      "$id": "https://smart-data-models.github.com/dataModel.SAREF/Measurement",
       "derivedFrom": "https://saref.etsi.org/core/v3.1.1/#saref:Measurement",
       "title": "Smart data models - Measurement schema",
       "type": "object",
@@ -27,7 +26,6 @@
       }
     },
     "Bounds": {
-      "$id": "https://smart-data-models.github.com/dataModel.SAREF/Bounds",
       "title": "Smart data models - Bounds schema",
       "type": "object",
       "license": "https://opensource.org/licenses/BSD-3-Clause",
@@ -51,7 +49,6 @@
       }
     },
     "Point": {
-      "$id": "https://smart-data-models.github.com/dataModel.SAREF/Point",
       "title": "Smart data models - Point schema",
       "type": "object",
       "license": "https://opensource.org/licenses/BSD-3-Clause",
@@ -79,7 +76,6 @@
       }
     },
     "Predictions": {
-      "$id": "https://smart-data-models.github.com/dataModel.SAREF/Predictions",
       "title": "Smart data models - Predictions schema",
       "type": "object",
       "license": "https://opensource.org/licenses/BSD-3-Clause",
@@ -95,7 +91,7 @@
           "properties": {
             "type": {
               "type": "string",
-              "description": "Property. It must be equal to `Predictions`.",
+              "description": "Property. It must be equal to Predictions.",
               "enum": [
                 "Predictions"
               ]
@@ -139,7 +135,7 @@
       ]
     },
     "PhysicalObject": {
-      "$id": "https://smart-data-models.github.com/dataModel.SAREF/PhysicalObject",
+      "$id": "https://smart-data-models.github.io/dataModel.S4SYST/S4SYST-schema.json#/definitions/PhysicalObject",
       "derivedFrom": "https://saref.etsi.org/saref4bldg/v1.1.2/#s4bldg:PhysicalObject",
       "title": "Smart data models - PhysicalObject schema",
       "type": "object",
@@ -156,7 +152,7 @@
           "properties": {
             "type": {
               "type": "string",
-              "description": "Property. It must be equal to `PhysicalObject`.",
+              "description": "Property. It must be equal to PhysicalObject.",
               "enum": [
                 "PhysicalObject"
               ]
