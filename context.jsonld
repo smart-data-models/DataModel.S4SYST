@@ -9,9 +9,17 @@
         "addressRegion": "https://smartdatamodels.org/addressRegion",
         "alternateName": "https://smartdatamodels.org/alternateName",
         "areaServed": "https://smartdatamodels.org/areaServed",
+        "bbox": {
+            "@container": "@list",
+            "@id": "geojson:bbox"
+        },
         "connectionPointOf": "https://smartdatamodels.org/dataModel.S4SYST/connectionPointOf",
         "connectsSystem": "https://smartdatamodels.org/dataModel.S4SYST/connectsSystem",
         "connectsSystemAt": "https://smartdatamodels.org/dataModel.S4SYST/connectsSystemAt",
+        "coordinates": {
+            "@container": "@list",
+            "@id": "geojson:coordinates"
+        },
         "dataProvider": "https://smartdatamodels.org/dataProvider",
         "dateCreated": "https://smartdatamodels.org/dateCreated",
         "dateModified": "https://smartdatamodels.org/dateModified",
