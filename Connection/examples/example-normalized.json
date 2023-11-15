@@ -2,11 +2,11 @@
   "id": "urn:ngsi-ld:Connection:97c3e3b1-e613-4469-ae07-da529c0d3507",
   "type": "Connection",
   "connectsSystem": {
-    "type": "URL",
+    "type": "Text",
     "value": "urn:ngsi-ld:System:b5dfdc91-a70e-44c8-96fe-cac952369e41"
   },
   "connectsSystemAt": {
-    "type": "URL",
+    "type": "Text",
     "value": "urn:ngsi-ld:ConnectionPoint:64e4ea60-b047-4876-a3e2-217b095e24bb"
   },
   "dateCreated": {
