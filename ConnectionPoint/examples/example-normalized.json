@@ -2,7 +2,7 @@
   "id": "urn:ngsi-ld:ConnectionPoint:d339ea71-6f54-4581-880f-0a7fc73494c2",
   "type": "ConnectionPoint",
   "connectionPointOf": {
-    "type": "URL",
+    "type": "Text",
     "value": "urn:ngsi-ld:ConnectionPoint:cd49d1b3-71e5-4605-b44e-22507e5e4f64"
   },
   "dateCreated": {
