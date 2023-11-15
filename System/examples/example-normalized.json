@@ -2,7 +2,7 @@
   "id": "urn:ngsi-ld:System:abb00684-22cd-4509-ad13-3e77660e6f4d",
   "type": "System",
   "purpose": {
-    "type": "SystemPurpose",
+    "type": "Text",
     "value": "cooling"
   },
   "dateCreated": {
