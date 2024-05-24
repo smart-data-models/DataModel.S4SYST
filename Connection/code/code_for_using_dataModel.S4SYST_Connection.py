@@ -24,19 +24,24 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "Connection"
 subject = "dataModel.S4SYST"
-connectsSystem = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:System:691d20a8-e4d3-4963-a6a1-037bc00c2931'}"
+connectsSystem = "urn:ngsi-ld:System:45734c92-e21f-495a-a46a-9ef121d9a869"
 attribute = "connectsSystem"
 value = connectsSystem
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-connectsSystemAt = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:ConnectionPoint:c9dd8efc-10f9-431c-9b38-54fe367ae838'}"
+connectsSystemAt = "urn:ngsi-ld:ConnectionPoint:d2a5d0d6-5058-4cbb-b516-ce21718bec14"
 attribute = "connectsSystemAt"
 value = connectsSystemAt
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
